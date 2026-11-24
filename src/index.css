@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{@apply bg-amber-50 text-slate-800;} button,a,input{@apply focus-visible:outline focus-visible:outline-4 focus-visible:outline-violet-400;} .btn{@apply rounded-xl bg-violet-700 text-white px-5 py-3 font-bold disabled:opacity-50;} .panel{@apply rounded-2xl bg-white p-5 shadow-sm border border-amber-100;} @media print{.no-print{display:none!important} .panel{break-inside:avoid;box-shadow:none}}
